@@ -59,3 +59,28 @@ main{
 .title{
   margin: 15px 0 5px;
 }
+
+@media screen and (max-width:768px) {
+main{
+  width: 90%;
+}
+.step-box{
+  float: none;
+  margin-right: 0;
+  margin-bottom: 20px;
+  width: 90%;
+  margin: 20px auto;
+}
+.step-box:last-child{
+  margin-right: auto;: 
+}
+.step-img1{
+  width: 100%;
+}
+.step-img2{
+  width: 100%;
+}
+.step-img3{
+  width: 100%;
+}
+}
