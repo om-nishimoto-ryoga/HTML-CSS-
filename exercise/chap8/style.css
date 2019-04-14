@@ -3,31 +3,59 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.box1{
-  height: 200px;
-  background-image: url(img/box1.jpg);
-  background-size: cover;
-  background-position: center;
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+main{
+  width: 960px;
+  margin: 50px auto;
+}
+.step-box{
+  margin-right: 30px;
+  border: 1px solid;
+  float: left;
+  width: 300px;
+  padding: 10px;
+  position: relative;
+}
+.step-box:last-child{
+  margin-right: 0;
 }
 
-.box2{
-  height: 200px;
-  background-image: url(img/box2.jpg);
+.step-img1{
+  background-image: url(img/flow01.png);
   background-size: cover;
-  background-position: center;
+  background-position:bottom;
+  width: 280px;
+  height: 150px;
+}
+.step-img2{
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position:bottom;
+  width: 280px;
+  height: 150px;
+}
+.step-img3{
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position:bottom;
+  width: 280px;
+  height: 150px;
 }
 
-.box3{
-  height: 200px;
-  background-image: url(img/box3.jpg);
-  background-size: cover;
-  background-position: center;
+.step-num{
+  padding: 5px;
+  color: white;
+  background-color: orange;
+  float: left;
+  position: absolute;
+  top:0px;
+  left:0px;
 }
 
-.box4{
-  height: 200px;
-  background-image: url(img/box4.jpg);
-  background-size: cover;
-  background-position: center;
+.title{
+  margin: 15px 0 5px;
 }
