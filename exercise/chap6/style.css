@@ -4,30 +4,39 @@
   box-sizing: border-box;
 }
 
-.box1{
-  height: 200px;
-  background-image: url(img/box1.jpg);
+.main-visual{
+  background-image: url(img/mv.jpg);
+  width: 100%;
+  height: 400px;
+  background-position:bottom;
   background-size: cover;
-  background-position: center;
+  ]
+}
+.headline{
+  padding: 20px;
+}
+main{
+  width: 840px;
+  margin:50px auto;
 }
 
-.box2{
-  height: 200px;
-  background-image: url(img/box2.jpg);
-  background-size: cover;
-  background-position: center;
+.service1{
+  border-bottom: 1px solid silver;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
-
-.box3{
-  height: 200px;
-  background-image: url(img/box3.jpg);
-  background-size: cover;
-  background-position: center;
+.service2{
+  border-bottom: 1px solid silver;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
-
-.box4{
-  height: 200px;
-  background-image: url(img/box4.jpg);
-  background-size: cover;
-  background-position: center;
+.service3{
+  border-bottom: 1px solid silver;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+.service4{
+  border-bottom: 1px solid silver;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
