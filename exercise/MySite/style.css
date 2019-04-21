@@ -14,6 +14,9 @@ header{
   width: 100%;
   height: 70px;
 }
+.fas{
+  display: none;
+}
 .bar{
   width: 1024px;
   height: 70px;
@@ -39,12 +42,14 @@ a{
   color: white;
 }
 
-.main-visual{
+.mainbox{
   background-image: url(img/mv.png);
-  width: 100%;
-  height: 650px;
   background-size: cover;
   background-position: center;
+}
+.main-visual{
+  width: 100%;
+  height: 650px;
 }
 .headline{
   text-align: center;
@@ -242,13 +247,29 @@ a{
   color: black;
 }
 .profile-box{
-  background-color: blue;
   width: 1024px;
   margin: 0 auto;
   padding-bottom: 90px;
   box-sizing: border-box;
 }
+.profile-left{
+  width: 512px;
+  float: left;
+}
+.left-img{
+  background-image: url(img/my-icon.jpg);
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin:auto;
+}
+.{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.{
 
+}
 
 .contact-content{
   width: 800px;
@@ -277,13 +298,39 @@ a{
   color: black;
 }
 .contact-box{
-  background-color: blue;
   width: 800px;
   margin: 0 auto;
   padding-bottom: 90px;
   box-sizing: border-box;
 }
-
+.contact-left{
+  width: 400px;
+  float: left;
+}
+.contact-content-left{
+  margin: 0 auto;
+  width: 150px;
+}
+.contact-right{
+  width: 400px;
+  float: right;
+}
+.contact-content-right{
+  margin: 0 auto;
+  width: 200px;
+}
+.sns{
+  width: 200px;
+  margin-left: auto;
+  margin-right:auto;
+}
+.fab{
+  margin-right: 20px;
+  font-size: 50px;
+}
+.fab:last-child{
+  margin-right: 0;
+}
 
 footer{
   width: 100%;
@@ -294,4 +341,155 @@ footer{
   text-align: center;
   color: white;
   font-size: 16px;
+}
+
+@media screen and (max-width:768px){
+header{
+  width: 100%;
+  height: 50px;
+}
+.bar{
+  width: 100%;
+  height: 50px;
+}
+.logo{
+  height: 50px;
+}
+.menu{
+  float: right;
+  width: 40px;
+  height: 40px;
+  margin-right: 5%;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.fas{
+  display: block;
+  font-size: 40px;
+}
+.nav-list{
+  display: none;
+  float: none;
+  width: 100%;
+}
+.nav-list-item{
+  float: none;
+}
+
+.mainbox{
+  background-image: url(img/code.png);
+}
+.main-visual{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.headline{
+  font-size: 40px;
+  padding-top: 250px;
+}
+.headline2{
+  font-size: 18px;
+}
+
+.Portfolio{
+
+}
+.Portfolio-content{
+  width: 90%;
+}
+.Portfolio-img{
+  width: 90%;
+}
+.img1{
+  float: none;
+  display: none;
+}
+.img3{
+  float: none;
+  display: none;
+}
+.img5{
+  float: none;
+  display: none;
+}
+.img2{
+  float: none;
+  margin-left: auto;
+  margin-right:auto;
+  margin-bottom: 10px;
+}
+.img4{
+  float: none;
+  margin-left: auto;
+  margin-right:auto;
+  margin-bottom: 10px;
+}
+.img6{
+  float: none;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.feature-content{
+  width: 90%;
+}
+.feature-box{
+  width: 90%;
+}
+.strength{
+  float: none;
+  margin-left: auto;
+  margin-right:auto;
+  margin-bottom: 10px;
+}
+.strength:last-child{
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.profile-content{
+  width: 90%;
+}
+.profile-box{
+  width: 90%;
+}
+.profile-left{
+  float: none;
+  width: 90%;
+}
+.profile-myname{
+  width: 90%;
+  padding: 0 5%;
+}
+.profile-myskills{
+  width: 90%;
+}
+
+.contact-content{
+  width: 90%;
+}
+.contact-box{
+  width: 90%;
+}
+.contact-left{
+  float: none;
+  width: 90%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.contact-right{
+  float: none;
+  width: 90%;
+  text-align: center;
+}
+.sns{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer{
+  
+}
 }
