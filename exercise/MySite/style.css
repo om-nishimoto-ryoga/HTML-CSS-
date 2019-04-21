@@ -60,10 +60,10 @@ a{
 }
 
 .Portfolio{
-  background-color: blue;
+  background-color: red;
 }
 .Portfolio-content{
-  background-color: red;
+  background-color: gray;
   width: 920px;
   margin-left: auto;
   margin-right: auto;
@@ -74,8 +74,32 @@ a{
   padding-top: 90px;
   text-align: center;
 }
+.Portfolio-title::after{
+  background-color: #EC715F;
+  display:block;
+  content: "";
+  height: 3px;
+  width: 70px;
+  margin: 8px auto 0;
+}
 .Portfolio-text{
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
   font-size: 16px;
   color: black;
+}
+.Portfolio-img{
+  width: 920px;
+  margin: 0 auto;
+  padding: 30px 0 90px 0;
+  background-color: blue;
+}
+.img1{
+  background-image: url(../);
+  float: left;
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
 }
