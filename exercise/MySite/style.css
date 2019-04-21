@@ -183,11 +183,33 @@ a{
   color: black;
 }
 .feature-box{
-  background-color: blue;
   width: 980px;
   margin: 0 auto;
   padding-bottom: 90px;
   box-sizing: border-box;
+}
+.strength{
+  float: left;
+  font-size: 60px;
+  text-align: center;
+  width: 320px;
+  height: auto;
+  margin-right: 10px;
+}
+.strength:last-child{
+  margin-right: 0;
+}
+.strength1-img{
+  background-image: url(img/);
+}
+.strength-title{
+  font-size: 20px;
+  color: black;
+  margin: 10px auto;
+}
+.strength-text{
+  font-size: 16px;
+  color: black;
 }
 
 .profile{
