@@ -60,10 +60,9 @@ a{
 }
 
 .Portfolio{
-  background-color: red;
+  background-color: #ECEFF1;
 }
 .Portfolio-content{
-  background-color: gray;
   width: 920px;
   margin-left: auto;
   margin-right: auto;
@@ -75,12 +74,12 @@ a{
   text-align: center;
 }
 .Portfolio-title::after{
-  background-color: #EC715F;
   display:block;
   content: "";
   height: 3px;
   width: 70px;
   margin: 8px auto 0;
+  background-color: #EC715F;
 }
 .Portfolio-text{
   padding-top: 30px;
@@ -92,14 +91,185 @@ a{
 .Portfolio-img{
   width: 920px;
   margin: 0 auto;
-  padding: 30px 0 90px 0;
-  background-color: blue;
+  padding-bottom: 90px;
+  box-sizing: border-box;
 }
 .img1{
-  background-image: url(../);
+  background-image: url(img/sketch.jpg);
   float: left;
   width: 300px;
   height: 250px;
+  margin: 0;
   background-size: cover;
   background-position: center;
+}
+.img2{
+  background-image: url(img/websuku.png);
+  float: left;
+  width: 300px;
+  height: 250px;
+  margin: 0;
+  margin-left: 10px;
+  background-size: cover;
+  background-position: center;
+}
+.img3{
+  background-image: url(img/write.jpg);
+  float: left;
+  width: 300px;
+  height: 250px;
+  margin: 0;
+  margin-left: 10px;
+  background-size: cover;
+  background-position: center;
+}
+.img4{
+  background-image: url(img/webcamp.png);
+  float: left;
+  width: 300px;
+  height: 250px;
+  margin: 0;
+  margin-top: 10px;
+  background-size: cover;
+  background-position: center;
+}
+.img5{
+  background-image: url(img/talk.jpg);
+  float: left;
+  width: 300px;
+  height: 250px;
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-size: cover;
+  background-position: center;
+}
+.img6{
+  background-image: url(img/webcamp-mother.png);
+  float: left;
+  width: 300px;
+  height: 250px;
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+.feature-content{
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.feature-title{
+  font-size: 32px;
+  color: black;
+  padding-top: 90px;
+  text-align: center;
+}
+.feature-title::after{
+  display:block;
+  content: "";
+  height: 3px;
+  width: 70px;
+  margin: 8px auto 0;
+  background-color: #EC715F;
+}
+.feature-text{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: black;
+}
+.feature-box{
+  background-color: blue;
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+  box-sizing: border-box;
+}
+
+.profile{
+  background-color: #ECEFF1;
+}
+.profile-content{
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile-title{
+  font-size: 32px;
+  color: black;
+  padding-top: 90px;
+  text-align: center;
+}
+.profile-title::after{
+  display:block;
+  content: "";
+  height: 3px;
+  width: 70px;
+  margin: 8px auto 0;
+  background-color: #EC715F;
+}
+.profile-text{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: black;
+}
+.profile-box{
+  background-color: blue;
+  width: 1024px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+  box-sizing: border-box;
+}
+
+
+.contact-content{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact-title{
+  font-size: 32px;
+  color: black;
+  padding-top: 90px;
+  text-align: center;
+}
+.contact-title::after{
+  display:block;
+  content: "";
+  height: 3px;
+  width: 70px;
+  margin: 8px auto 0;
+  background-color: #EC715F;
+}
+.contact-text{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: black;
+}
+.contact-box{
+  background-color: blue;
+  width: 800px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+  box-sizing: border-box;
+}
+
+
+footer{
+  width: 100%;
+  background-color: #EC715F;
+  line-height: 60px;
+}
+.footer-text{
+  text-align: center;
+  color: white;
+  font-size: 16px;
 }
