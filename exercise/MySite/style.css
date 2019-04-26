@@ -391,7 +391,7 @@ header{
 }
 .headline{
   font-size: 40px;
-  padding-top: 250px;
+  padding-top: 200px;
 }
 .headline2{
   font-size: 18px;
@@ -467,8 +467,6 @@ header{
   margin-right: auto;
 }
 .profile-myname{
-  width: 90%;
-  padding: 0 5%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
